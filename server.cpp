@@ -11,7 +11,7 @@
 #include<sys/wait.h>
 #include<signal.h>
 #include<iostream>
-#define PORT "3000"
+#define PORT "8080"
 #define BACKLOG 10
 using namespace std;
 void sigchld_handler(int s){
